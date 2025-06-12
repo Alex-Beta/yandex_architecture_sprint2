@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("cinemaabyss-proxy-service")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("sinemaabyss-events")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+974a7f3d663b946ef3b3745e3fd2dae43920d08b")]
-[assembly: System.Reflection.AssemblyProductAttribute("cinemaabyss-proxy-service")]
-[assembly: System.Reflection.AssemblyTitleAttribute("cinemaabyss-proxy-service")]
+[assembly: System.Reflection.AssemblyProductAttribute("sinemaabyss-events")]
+[assembly: System.Reflection.AssemblyTitleAttribute("sinemaabyss-events")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
