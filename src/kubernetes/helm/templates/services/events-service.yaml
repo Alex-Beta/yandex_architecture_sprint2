@@ -24,17 +24,8 @@ spec:
         app: events-service
     spec:
       containers:
-        - name: events-service
-          image: ghcr.io/alex-beta/yandex_architecture_sprint2/events-service:sha-f0aa717
-          imagePullPolicy: IfNotPresent
-          ports:
-            - containerPort: 8080
-          env:
-            - name: PORT
-              value: "8082"
-            - name: KAFKA_BROKERS
-              value: "kafka:9092"
-      restartPolicy: Always
+      - name: events-service
+       .... тут
 ---
 apiVersion: v1
 kind: Service
@@ -46,11 +37,5 @@ metadata:
     app.kubernetes.io/name: {{ include "cinemaabyss.name" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
 spec:
-  selector:
-    app: events-service
-  ports:
-    - protocol: TCP
-      port: 8082
-      targetPort: 8080
-  type: ClusterIP
+ ........ и тут
 {{- end }}
