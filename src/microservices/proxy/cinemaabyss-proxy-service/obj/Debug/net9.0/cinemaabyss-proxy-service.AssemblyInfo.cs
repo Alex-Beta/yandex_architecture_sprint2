@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cinemaabyss-proxy-service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+974a7f3d663b946ef3b3745e3fd2dae43920d08b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+743d0b6a09020ccc467213ded846b91eb7cf1eff")]
 [assembly: System.Reflection.AssemblyProductAttribute("cinemaabyss-proxy-service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cinemaabyss-proxy-service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
